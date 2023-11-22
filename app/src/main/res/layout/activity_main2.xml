@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEADC"
+    tools:context=".MainActivity2">
+
+  <ImageView
+      android:id="@+id/logo2"
+      android:layout_width="158dp"
+      android:layout_height="67dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.043"
+      app:srcCompat="@drawable/logo" />
+
+  <TextView
+      android:id="@+id/titulo2"
+      android:layout_width="333dp"
+      android:layout_height="57dp"
+      android:fontFamily="serif-monospace"
+      android:text="Crear Cuenta"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="34sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.228" />
+
+  <Button
+      android:id="@+id/crearcuenta"
+      android:layout_width="321dp"
+      android:layout_height="67dp"
+      android:backgroundTint="#43A047"
+      android:fontFamily="serif-monospace"
+      android:text="Crear Cuenta"
+      android:textColor="#FFFFFF"
+      android:textColorHighlight="#FFFFFF"
+      android:textColorHint="#FF0000"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.462"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.933" />
+
+  <EditText
+      android:id="@+id/nombre"
+      android:layout_width="298dp"
+      android:layout_height="56dp"
+      android:ems="10"
+      android:fontFamily="serif-monospace"
+      android:hint="nombre"
+      android:inputType="text"
+      android:textColor="#000000"
+      android:textColorHint="#000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.379" />
+
+  <EditText
+      android:id="@+id/usuario"
+      android:layout_width="304dp"
+      android:layout_height="46dp"
+      android:ems="10"
+      android:fontFamily="serif-monospace"
+      android:hint="Usuario"
+      android:inputType="text"
+      android:textColor="#000000"
+      android:textColorHint="#000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.527"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.499" />
+
+  <EditText
+      android:id="@+id/contraseña"
+      android:layout_width="307dp"
+      android:layout_height="49dp"
+      android:ems="10"
+      android:fontFamily="serif-monospace"
+      android:hint="Contraseña"
+      android:inputType="text"
+      android:textColor="#000000"
+      android:textColorHint="#000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.618" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
